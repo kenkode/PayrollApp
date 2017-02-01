@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Payslip - Jan-2017"
+        android:id="@+id/textView10"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Personal Details"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textView42"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:textSize="14dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Payroll No:"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textView43"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginLeft="10dp"
+        android:text="Name:"
+        android:layout_marginTop="68dp"
+        android:id="@+id/textView44"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Identity Number:"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp"
+        android:id="@+id/textView45"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginLeft="10dp"
+        android:text="KRA Pin:"
+        android:layout_marginTop="93dp"
+        android:id="@+id/textView46"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginLeft="10dp"
+        android:text="NSSF NO:"
+        android:layout_marginTop="107dp"
+        android:id="@+id/textView47"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginLeft="10dp"
+        android:text="NHIF NO:"
+        android:layout_marginTop="120dp"
+        android:id="@+id/textView48"
+        android:layout_marginBottom="10dp"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Earnings"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textView49"
+        android:layout_marginTop="140dp"
+        android:textStyle="bold"
+        android:textSize="14dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginLeft="10dp"
+        android:text="Basic Pay: "
+        android:id="@+id/textView50"
+        android:layout_marginTop="155dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Allowances"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="172dp"
+        android:id="@+id/textView51"
+        android:textStyle="bold"
+        android:textSize="14dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginLeft="10dp"
+        android:text="House Allowance: "
+        android:id="@+id/textView52"
+        android:layout_marginTop="187dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginLeft="10dp"
+        android:text="Gross Pay: "
+        android:id="@+id/textView53"
+        android:textStyle="bold"
+        android:layout_marginTop="205dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="14dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginLeft="10dp"
+        android:text="Deductions"
+        android:id="@+id/textView54"
+        android:layout_marginTop="226dp"
+        android:textStyle="bold"
+        android:textSize="14dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Paye:"
+        android:layout_marginTop="243dp"
+        android:id="@+id/textView55"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="NSSF: "
+        android:layout_marginTop="259dp"
+        android:id="@+id/textView56"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="NHIF: "
+        android:layout_marginTop="275dp"
+        android:id="@+id/textView57"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Salary Advance: "
+        android:id="@+id/textView58"
+        android:layout_marginTop="290dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Net Pay: "
+        android:layout_marginTop="310dp"
+        android:id="@+id/textView59"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:textSize="14dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="335dp"
+        android:text="I certify that the above information is correct and I have  received the payment, in full and final settlement"
+        android:id="@+id/textView60"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Kennedy Wango"
+        android:id="@+id/name_txt"
+        android:textSize="12dp"
+        android:layout_alignTop="@+id/textView44"
+        android:layout_alignLeft="@+id/id_txtx"
+        android:layout_alignStart="@+id/id_txtx" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="27781190"
+        android:id="@+id/id_txtx"
+        android:textSize="12dp"
+        android:layout_below="@+id/name_txt"
+        android:layout_alignLeft="@+id/textView69"
+        android:layout_alignStart="@+id/textView69" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="A0231762173623"
+        android:id="@+id/textView66"
+        android:textSize="12dp"
+        android:layout_below="@+id/textView45"
+        android:layout_alignLeft="@+id/id_txtx"
+        android:layout_alignStart="@+id/id_txtx" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="2343434"
+        android:id="@+id/nssf_txt"
+        android:textSize="12dp"
+        android:layout_above="@+id/textView67"
+        android:layout_alignLeft="@+id/textView66"
+        android:layout_alignStart="@+id/textView66" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="21321321"
+        android:id="@+id/textView67"
+        android:textSize="12dp"
+        android:layout_alignTop="@+id/textView48"
+        android:layout_alignLeft="@+id/textView66"
+        android:layout_alignStart="@+id/textView66" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="49,376.01"
+        android:id="@+id/basic_pay"
+        android:textSize="12dp"
+        android:layout_below="@+id/textView49"
+        android:layout_alignLeft="@+id/textView67"
+        android:layout_alignStart="@+id/textView67" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="10,000.00"
+        android:id="@+id/allowance_txt"
+        android:textSize="12dp"
+        android:layout_alignTop="@+id/textView52"
+        android:layout_alignLeft="@+id/basic_pay"
+        android:layout_alignStart="@+id/basic_pay" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="59,376.01"
+        android:id="@+id/gross_txt"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:layout_below="@+id/textView52"
+        android:layout_alignLeft="@+id/allowance_txt"
+        android:layout_alignStart="@+id/allowance_txt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="11,076.01"
+        android:id="@+id/paye_txt"
+        android:textSize="12dp"
+        android:layout_below="@+id/textView54"
+        android:layout_alignLeft="@+id/gross_txt"
+        android:layout_alignStart="@+id/gross_txt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="200.00"
+        android:id="@+id/nssf_txt"
+        android:textSize="12dp"
+        android:layout_alignTop="@+id/textView56"
+        android:layout_alignLeft="@+id/paye_txt"
+        android:layout_alignStart="@+id/paye_txt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="1,200.00"
+        android:id="@+id/nhif_txt"
+        android:textSize="12dp"
+        android:layout_alignTop="@+id/textView57"
+        android:layout_alignLeft="@+id/nssf_txt"
+        android:layout_alignStart="@+id/nssf_txt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="2,000.00"
+        android:id="@+id/ded_txt"
+        android:textSize="12dp"
+        android:layout_alignTop="@+id/textView58"
+        android:layout_alignLeft="@+id/nhif_txt"
+        android:layout_alignStart="@+id/nhif_txt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="44,900.00"
+        android:id="@+id/textView68"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:layout_below="@+id/textView58"
+        android:layout_alignLeft="@+id/ded_txt"
+        android:layout_alignStart="@+id/ded_txt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="B.1"
+        android:id="@+id/textView69"
+        android:textSize="12dp"
+        android:layout_above="@+id/name_txt"
+        android:layout_toRightOf="@+id/textView42"
+        android:layout_toEndOf="@+id/textView42" />
+
+</RelativeLayout>

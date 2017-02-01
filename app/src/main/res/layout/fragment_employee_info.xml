@@ -1,0 +1,474 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="net.lixnet.payrollapp.activity.EmployeeInfo$PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personal Info"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Payroll No:"
+        android:id="@+id/pfn"
+        android:layout_below="@+id/section_label"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Firstname:"
+        android:id="@+id/textView11"
+        android:layout_below="@+id/pfn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Lastname:"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/textView11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Gender:"
+        android:id="@+id/textView13"
+        android:layout_below="@+id/textView12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Id Number:"
+        android:id="@+id/textView14"
+        android:layout_below="@+id/textView13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Passport No:"
+        android:id="@+id/textView15"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Phone No:"
+        android:id="@+id/textView16"
+        android:textSize="12dp"
+        android:layout_below="@+id/textView39"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Personal Email:"
+        android:id="@+id/textView17"
+        android:textSize="12dp"
+        android:layout_below="@+id/textView16"
+        android:layout_alignRight="@+id/textView39"
+        android:layout_alignEnd="@+id/textView39" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Postal Address:"
+        android:id="@+id/textView20"
+        android:textSize="12dp"
+        android:layout_below="@+id/textView17"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Postal Zip:"
+        android:id="@+id/textView21"
+        android:textSize="12dp"
+        android:layout_below="@+id/textView20"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Marital Status:"
+        android:id="@+id/textView30"
+        android:layout_below="@+id/textView15"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Citizenship:"
+        android:id="@+id/textView31"
+        android:layout_below="@+id/textView30"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Date of Birth:"
+        android:id="@+id/textView32"
+        android:layout_below="@+id/textView31"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Highest Education:"
+        android:id="@+id/textView34"
+        android:textSize="12dp"
+        android:layout_below="@+id/textView32"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Bank:"
+        android:id="@+id/textView35"
+        android:textSize="12dp"
+        android:layout_below="@+id/textView34"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Bank Branch:"
+        android:id="@+id/textView36"
+        android:textSize="12dp"
+        android:layout_below="@+id/textView35"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Bank Acc:"
+        android:id="@+id/textView37"
+        android:textSize="12dp"
+        android:layout_below="@+id/textView36"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Swift Code:"
+        android:id="@+id/textView38"
+        android:textSize="12dp"
+        android:layout_below="@+id/textView37"
+        android:layout_alignRight="@+id/textView31"
+        android:layout_alignEnd="@+id/textView31" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Bank EFT Code:"
+        android:id="@+id/textView39"
+        android:textSize="12dp"
+        android:layout_below="@+id/textView38"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Payroll No:"
+        android:id="@+id/pfn_txt"
+        android:textSize="12dp"
+        android:layout_below="@+id/section_label"
+        android:layout_toRightOf="@+id/section_label"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Firstname"
+        android:id="@+id/fname_txt"
+        android:textSize="12dp"
+        android:layout_above="@+id/textView12"
+        android:layout_alignLeft="@+id/pfn_txt"
+        android:layout_alignStart="@+id/pfn_txt"
+        android:layout_alignRight="@+id/pfn_txt"
+        android:layout_alignEnd="@+id/pfn_txt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Lastname"
+        android:id="@+id/lname_txt"
+        android:textSize="12dp"
+        android:layout_alignTop="@+id/textView12"
+        android:layout_alignLeft="@+id/fname_txt"
+        android:layout_alignStart="@+id/fname_txt"
+        android:layout_alignRight="@+id/fname_txt"
+        android:layout_alignEnd="@+id/fname_txt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Gender"
+        android:id="@+id/gender"
+        android:textSize="12dp"
+        android:layout_below="@+id/lname_txt"
+        android:layout_alignLeft="@+id/lname_txt"
+        android:layout_alignStart="@+id/lname_txt"
+        android:layout_alignRight="@+id/lname_txt"
+        android:layout_alignEnd="@+id/lname_txt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Identity Number"
+        android:id="@+id/idno"
+        android:textSize="12dp"
+        android:layout_below="@+id/gender"
+        android:layout_alignLeft="@+id/gender"
+        android:layout_alignStart="@+id/gender"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Passport Number"
+        android:id="@+id/passport"
+        android:textSize="12dp"
+        android:layout_below="@+id/idno"
+        android:layout_alignLeft="@+id/idno"
+        android:layout_alignStart="@+id/idno"
+        android:layout_alignRight="@+id/idno"
+        android:layout_alignEnd="@+id/idno" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Marital Status"
+        android:id="@+id/marital_status"
+        android:textSize="12dp"
+        android:layout_alignTop="@+id/textView30"
+        android:layout_alignLeft="@+id/passport"
+        android:layout_alignStart="@+id/passport"
+        android:layout_alignRight="@+id/passport"
+        android:layout_alignEnd="@+id/passport" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Citizenship"
+        android:id="@+id/citizenship"
+        android:textSize="12dp"
+        android:layout_below="@+id/marital_status"
+        android:layout_alignLeft="@+id/marital_status"
+        android:layout_alignStart="@+id/marital_status"
+        android:layout_alignRight="@+id/marital_status"
+        android:layout_alignEnd="@+id/marital_status" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="DOB"
+        android:id="@+id/dob"
+        android:textSize="12dp"
+        android:layout_above="@+id/textView34"
+        android:layout_alignLeft="@+id/citizenship"
+        android:layout_alignStart="@+id/citizenship"
+        android:layout_alignRight="@+id/citizenship"
+        android:layout_alignEnd="@+id/citizenship" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Education Background"
+        android:id="@+id/education"
+        android:textSize="12dp"
+        android:layout_below="@+id/dob"
+        android:layout_alignLeft="@+id/dob"
+        android:layout_alignStart="@+id/dob"
+        android:layout_alignRight="@+id/dob"
+        android:layout_alignEnd="@+id/dob" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Bank"
+        android:id="@+id/bank"
+        android:textSize="12dp"
+        android:layout_above="@+id/textView36"
+        android:layout_alignLeft="@+id/education"
+        android:layout_alignStart="@+id/education"
+        android:layout_alignRight="@+id/education"
+        android:layout_alignEnd="@+id/education" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Bank Branch"
+        android:id="@+id/bbranch"
+        android:textSize="12dp"
+        android:layout_below="@+id/bank"
+        android:layout_alignLeft="@+id/bank"
+        android:layout_alignStart="@+id/bank"
+        android:layout_alignRight="@+id/bank"
+        android:layout_alignEnd="@+id/bank" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Bank Account Number"
+        android:id="@+id/bacc"
+        android:textSize="12dp"
+        android:layout_above="@+id/textView38"
+        android:layout_alignLeft="@+id/bbranch"
+        android:layout_alignStart="@+id/bbranch"
+        android:layout_alignRight="@+id/bbranch"
+        android:layout_alignEnd="@+id/bbranch" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Swift Code"
+        android:id="@+id/swift"
+        android:textSize="12dp"
+        android:layout_below="@+id/bacc"
+        android:layout_alignLeft="@+id/bacc"
+        android:layout_alignStart="@+id/bacc"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Bank EFT Code"
+        android:id="@+id/eft"
+        android:textSize="12dp"
+        android:layout_alignTop="@+id/textView39"
+        android:layout_alignLeft="@+id/swift"
+        android:layout_alignStart="@+id/swift"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Phone Number"
+        android:id="@+id/phone"
+        android:textSize="12dp"
+        android:layout_below="@+id/eft"
+        android:layout_alignLeft="@+id/eft"
+        android:layout_alignStart="@+id/eft"
+        android:layout_alignRight="@+id/eft"
+        android:layout_alignEnd="@+id/eft" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Personal Email"
+        android:id="@+id/email"
+        android:textSize="12dp"
+        android:layout_below="@+id/phone"
+        android:layout_alignLeft="@+id/phone"
+        android:layout_alignStart="@+id/phone"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Postal Address"
+        android:id="@+id/address"
+        android:textSize="12dp"
+        android:layout_below="@+id/email"
+        android:layout_alignLeft="@+id/email"
+        android:layout_alignStart="@+id/email"
+        android:layout_alignRight="@+id/email"
+        android:layout_alignEnd="@+id/email" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Postal Zip"
+        android:id="@+id/zip"
+        android:textSize="12dp"
+        android:layout_below="@+id/address"
+        android:layout_alignLeft="@+id/address"
+        android:layout_alignStart="@+id/address"
+        android:layout_alignRight="@+id/address"
+        android:layout_alignEnd="@+id/address" />
+
+</RelativeLayout>

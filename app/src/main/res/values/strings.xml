@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">PayrollApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="title_activity_employee_details">EmployeeDetails</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_vacation">Vacation</string>
+    <string name="nav_paylips">Reports</string>
+    <string name="nav_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Vacation</item>
+        <item>Reports</item>
+        <item>Settings</item>
+        <item>Logout</item>
+    </string-array>
+    <string name="title_activity_employee_data">EmployeeData</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_employee_info">EmployeeInfo</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>

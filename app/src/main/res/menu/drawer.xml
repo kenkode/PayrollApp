@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Compose" android:id="@+id/navigation_item_2" android:icon="@drawable/composea" ></item>
+    <item android:title="Dashboard"  android:icon="@drawable/ic_home_black_24dp" ></item>
+    <item android:title="Vacation" android:icon="@drawable/senta"></item>
+    <item android:title="Apply Advance" android:icon="@drawable/draft"></item>
+
+
+    <group android:id="@+id/shitss">
+
+        <item android:title="Profile" android:icon="@drawable/ic_perm_identity_black_24dp"></item>
+        <item android:title="Logout" android:id="@+id/nav_item_logout" android:icon="@drawable/ic_lock_black_24dp"></item>
+    </group>
+
+
+
+
+
+</menu>
